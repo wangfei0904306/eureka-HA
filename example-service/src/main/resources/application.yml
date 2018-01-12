@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: example-service
+
+server:
+  port: 8080
+
+eureka:
+  instance:
+    preferIpAddress: true
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/,http://127.0.0.1:8762/eureka/,http://127.0.0.1:8763/eureka/
