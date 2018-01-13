@@ -7,10 +7,8 @@ server:
 
 eureka:
   instance:
-    preferIpAddress: true
-    #hostname: localhost
+    hostname: eureka1
+    appname: eureka
   client:
-    register-with-eureka: true
-    fetch-registry: true
     serviceUrl:
-      defaultZone: http://127.0.0.1:8762/eureka/,http://127.0.0.1:8763/eureka/
+      defaultZone: http://eureka2:8762/eureka/,http://eureka3:8763/eureka/

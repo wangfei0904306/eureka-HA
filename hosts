@@ -1,0 +1,6 @@
+# host file
+# location C:\Windows\System32\drivers\etc
+
+127.0.0.1 eureka1
+127.0.0.1 eureka2
+127.0.0.1 eureka3
