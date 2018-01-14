@@ -26,5 +26,5 @@ eureka:
       defaultZone: http://server2IP:8761/eureka/,http://server3IP:8761/eureka/
 ```
 
-
+[更为详细的说明](http://blog.csdn.net/wangfei0904306/article/details/79056083)
 
