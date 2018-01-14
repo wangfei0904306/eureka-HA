@@ -5,7 +5,8 @@
 - dev_no_hosts是不配置hosts的启动方式
 ## 使用说明
 - 下载项目并启动Eureka1Application，Eureka2Application，Eureka3Application和ExampleServiceApplication
-- 查看
+- 依次查看http://127.0.0.1:8761/ ，http://127.0.0.1:8762/ ，http://127.0.0.1:8763/
+- 每个注册中心的available-replicas都出现两个服务，说明搭建成功。
 
 
 
