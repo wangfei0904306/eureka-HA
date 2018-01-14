@@ -1,8 +1,8 @@
 # 搭建高可用的Eureka注册中心
 ---
 ## 分支说明
-- **dev_use_hosts是常用的配置hosts启动方式**:使用hosts区分hostname   
-- **dev_no_hosts是不配置hosts的启动方式**:使用当前机器IP地址、17.0.0.1和localhost区分hostname 
+- **dev_use_hosts是常用的配置hosts启动方式**: 使用hosts区分hostname   
+- **dev_no_hosts是不配置hosts的启动方式**: 使用当前机器IP地址、17.0.0.1和localhost区分hostname 
 ## 使用说明
 - 下载项目并启动Eureka1Application，Eureka2Application，Eureka3Application和ExampleServiceApplication
 - 依次查看http://127.0.0.1:8761/ ，http://127.0.0.1:8762/ ，http://127.0.0.1:8763/
@@ -26,5 +26,5 @@ eureka:
       defaultZone: http://server2IP:8761/eureka/,http://server3IP:8761/eureka/
 ```
 
-[更为详细的说明](http://blog.csdn.net/wangfei0904306/article/details/79056083)
+[更加详细的说明](http://blog.csdn.net/wangfei0904306/article/details/79056083)
 
